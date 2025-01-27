@@ -1,25 +1,23 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-
-
-export default function navBar ()  {
-
-
-
+const NavBar: React.FC = () => {
 
     return(
         <section className="nav">
             <p>
-                <a href="#home">Home</a>
+                <Link to="#home">Home</Link>
             </p>
             <p>
-                <a href = "#blog">Blog</a>
+                <Link to= "#blog">Blog</Link>
             </p>
             <p>
-                <a href = "#projects">Projects</a>
+                <Link to = "#projects">Projects</Link>
             </p>
 
 
         </section>
     )
 }
+
+export default NavBar;
