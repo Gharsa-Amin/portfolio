@@ -39,7 +39,11 @@ const NavBar: React.FC = () => {
       <p className="nav__left-items">
         <Link to="/#blog">Blog</Link>
       </p>
+
+  
+
       <div className="theme-gif nav__left-items" > 
+
         <img
           src={theme === "light" ? lightThemeGif : darkThemeGif}
           alt={theme === "light" ? "Light theme GIF" : "Dark theme GIF"}
