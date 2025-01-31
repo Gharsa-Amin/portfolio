@@ -29,24 +29,28 @@ const NavBar: React.FC = () => {
   const darkThemeGif="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzgya2duYWV6MDl6YjV3N3E4bm5tdmxlaGdqcGJoMDQyMHp1bDd2MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pzC2KawpHBsli/giphy.gif"
   return (
     <section className="nav">
-      <p>
+      <div className="nav__right">
+      <p className="nav__right-items">
         <Link to="/aboutme">About</Link>
       </p>
-      <p>
+      <p className="nav__right-items">
         <Link to="/#skills">Skills</Link>
       </p>
-      <p>
+      <p className="nav__right-itemst">
         <Link to="/#projects">Projects</Link>
       </p>
-      <p>
+      </div>
+      <div className="nav__left">
+      <p className="nav__left-items">
         <Link to="/#blog">Blog</Link>
       </p>
-      <div className="theme-gif"> Theme
+      <div className="theme-gif nav__left-items" > Theme
         <img
           src={theme === "light" ? lightThemeGif : darkThemeGif}
           alt={theme === "light" ? "Light theme GIF" : "Dark theme GIF"}
           onClick={toggleTheme}
         />
+      </div>
       </div>
     </section>
   );
