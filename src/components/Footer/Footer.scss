@@ -1,0 +1,13 @@
+.footer {
+	padding-top: 3.125rem;
+	&__wrapper {
+		display: flex;
+		gap: 1.25rem;
+	}
+	&__items {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+}
