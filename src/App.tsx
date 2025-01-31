@@ -14,7 +14,7 @@ import AboutMe from "./components/AboutMe/AboutMe";
 		<NavBar />
 		<Routes>
 			<Route path="/" element={<Skills />} />
-			<Route path="/" element={<AboutMe />} />
+			<Route path="/aboutme" element={<AboutMe />} />
 			<Route path="/blog" element={<div>Blog Page</div>} />
 			<Route path="/projects" element={<div>Projects Page</div>} />
 		</Routes>
