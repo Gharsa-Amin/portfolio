@@ -1,0 +1,12 @@
+body.light-theme {
+	background-color: white;
+	color: black;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark theme */
+body.dark-theme {
+	background-color: black;
+	color: white;
+	transition: background-color 0.3s, color 0.3s;
+}
