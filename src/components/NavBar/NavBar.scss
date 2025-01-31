@@ -5,7 +5,22 @@ body.light-theme {
 }
 
 body.dark-theme {
-	background-color: rgb(26, 24, 31);
+	// background-color: rgb(26, 24, 31);
+	background-image: linear-gradient(
+		to right top,
+		#b6398c,
+		#9e378f,
+		#853690,
+		#69368f,
+		#4a358c,
+		#3a4296,
+		#264e9d,
+		#0058a2,
+		#0073b2,
+		#008bb3,
+		#00a0a7,
+		#04b396
+	);
 	color: rgb(206, 206, 206);
 	transition: background-color 0.3s, color 0.3s;
 }

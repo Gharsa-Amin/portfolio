@@ -6,7 +6,7 @@
             return(
                 <section className="aboutMe"> 
                 <h1>Software Engineer</h1> 
-                <h3>Building softwares, systems and great user experiences</h3>
+                <h3>Building softwares, Systems and Great user experiences</h3>
             <img className="aboutMe__hero" src={image} alt="headshot" width="300px"/>
                     <p>
                     I’m passionate about software development because it allows me to combine my problem-solving skills with my interest in building secure, impactful tools, especially in the blockchain space. My journey into programming started during my graduate degree, where I dabbled in coding but ultimately shifted focus toward compliance and trading. During this time, I realized that the tools available in the blockchain space weren’t doing enough to bridge the gap between compliance, trading, security, and innovation. This sparked my passion for software development—I wanted to build the solutions that could protect customers while fostering innovation.

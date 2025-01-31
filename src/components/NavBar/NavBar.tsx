@@ -31,20 +31,15 @@ const NavBar: React.FC = () => {
     <section className="nav">
       <div className="nav__right">
       <p className="nav__right-items">
-        <Link to="/aboutme">About</Link>
+        <Link to="/aboutme">Home</Link>
       </p>
-      <p className="nav__right-items">
-        <Link to="/#skills">Skills</Link>
-      </p>
-      <p className="nav__right-itemst">
-        <Link to="/#projects">Projects</Link>
-      </p>
+     
       </div>
       <div className="nav__left">
       <p className="nav__left-items">
         <Link to="/#blog">Blog</Link>
       </p>
-      <div className="theme-gif nav__left-items" > Theme
+      <div className="theme-gif nav__left-items" > 
         <img
           src={theme === "light" ? lightThemeGif : darkThemeGif}
           alt={theme === "light" ? "Light theme GIF" : "Dark theme GIF"}
