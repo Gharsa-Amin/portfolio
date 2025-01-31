@@ -1,0 +1,17 @@
+body.light-theme {
+	background-color: white;
+	color: black;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark theme */
+body.dark-theme {
+	background-color: black;
+	color: white;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+.theme-gif img {
+	width: 50px; // Adjust width
+	height: 50px; // Adjust height
+}
