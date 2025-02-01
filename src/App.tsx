@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar/NavBar";
 import "./App.css";
 import FooterSection from "./components/Footer/Footer";
-import Skills from "./components/Skills/Skills";
+
 import AboutMe from "./components/AboutMe/AboutMe";
 
 	function App() {
@@ -13,7 +13,7 @@ import AboutMe from "./components/AboutMe/AboutMe";
 		<BrowserRouter>
 		<NavBar />
 		<Routes>
-			<Route path="/" element={<Skills />} />
+			
 			<Route path="/aboutme" element={<AboutMe />} />
 			<Route path="/blog" element={<div>Blog Page</div>} />
 			<Route path="/projects" element={<div>Projects Page</div>} />
