@@ -27,6 +27,9 @@ const NavBar: React.FC = () => {
 
   const lightThemeGif="https://media.giphy.com/media/mACXF3xsZFVuyfBVRI/giphy.gif?cid=ecf05e47622kitqvsvobfuwjzpu093o190ya2l3af5ri5rzz&ep=v1_gifs_search&rid=giphy.gif&ct=g"; 
   const darkThemeGif="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzgya2duYWV6MDl6YjV3N3E4bm5tdmxlaGdqcGJoMDQyMHp1bDd2MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pzC2KawpHBsli/giphy.gif"
+
+
+  
   return (
     <section className="nav">
       <div className="nav__right">
