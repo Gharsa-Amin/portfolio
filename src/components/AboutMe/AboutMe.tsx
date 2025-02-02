@@ -3,6 +3,7 @@
     import "./AboutMe.scss"; 
 import Skills from "../Skills/Skills";
 import Projects from "../Projects/Projects";
+import Recommendations from "../Recommendations/Recommendations";
         const AboutMe: React.FC = () => {
 
             return(
@@ -16,6 +17,7 @@ import Projects from "../Projects/Projects";
                 </p>
                 <Skills />
                 <Projects />
+                <Recommendations />
                 </section>
             )
         }
