@@ -2,13 +2,13 @@ import "./Projects.scss";
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Projects: React.FC = () => {
+const Recommendations: React.FC = () => {
     return (
-        <section className="projects">
+        <section className="recommendations">
             <div>
-                My Projects  
+                Recommendations and Collaborations 
             </div>
-            <section className="card"> 
+            <section className="recommendations"> 
                 <h2>GD Chain</h2>
                 <p>A full-stack, mobile-first crypto-trading platform with real-time trading functionalities and a blockchain featuring a decentralized network where transactions are securely recorded and are using proof-of-existence.</p>
                 <p>Tech Stack: React, Express.js, Node.js, MySQL, Chart.js, OAuth, JWT, External APIs</p>
@@ -80,4 +80,4 @@ const Projects: React.FC = () => {
     );
 };
 
-export default Projects;
+export default Recommendations;
