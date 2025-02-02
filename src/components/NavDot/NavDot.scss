@@ -1,0 +1,27 @@
+/* src/App.css */
+#nav-bullets {
+	position: fixed;
+	top: 50%;
+	right: 20px;
+	transform: translateY(-50%);
+	list-style: none;
+	padding: 0;
+}
+
+#nav-bullets li {
+	margin: 10px 0;
+}
+
+.nav-bullet {
+	width: 10px;
+	height: 10px;
+	border-radius: 90%;
+	background-color: #ccc;
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.nav-bullet.current {
+	background-color: #007bff;
+}
