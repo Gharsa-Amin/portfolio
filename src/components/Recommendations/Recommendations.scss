@@ -6,6 +6,12 @@
 
 .recommendations-card {
 	border: 1px solid black;
-	border-radius: 25%;
+
 	width: 30%;
+}
+
+.recommendations-header {
+	display: flex;
+	padding-left: 3.125rem;
+	padding-top: 3.125rem;
 }
