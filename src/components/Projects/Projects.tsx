@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import crypto from "../../assets/images/CryptoTrading.png"
 import InStock from "../../assets/images/InStock.png"; 
-import Snaps from "../../assets/images/Snaps.png "; 
+import Snaps from "../../assets/images/Snaps.png"; 
 
 const Projects: React.FC = () => {
     return (
@@ -49,7 +49,7 @@ const Projects: React.FC = () => {
             </section>
             <section className="card"> 
                 <h2>SNAPS</h2>
-                
+                <img src={Snaps} width="50px" alt="" />
 
                 <p>A full-stack, mobile-first crypto-trading platform with real-time trading functionalities and a blockchain featuring a decentralized network where transactions are securely recorded and are using proof-of-existence.</p>
                 <p>Tech Stack: React, Express.js, Node.js, MySQL, Chart.js, OAuth, JWT, External APIs</p>

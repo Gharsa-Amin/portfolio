@@ -1,4 +1,4 @@
-
+// src/components/NavBar/NavBar.tsx
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import blogPosts from "../../assets/data/Blog.json"; 
@@ -35,14 +35,11 @@ const NavBar: React.FC = () => {
         </p>
       </div>
       <div className="nav__left">
-      
-        {blogPosts.map((post) => (
-          <p className="nav__left-items" key={post.id}>
-            <Link to={`/blog/${post.id}`}>Blog</Link>
-          </p>
-        ))}
+        {/* Single Blog link */}
+        <p className="nav__left-items">
+          <Link to="/blog">Blog</Link>
+        </p>
 
-      
         <div className="theme-icon nav__left-items" onClick={toggleTheme}>
           {theme === "light" ? <LightThemeIcon /> : <DarkThemeIcon />}
         </div>
