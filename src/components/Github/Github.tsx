@@ -12,8 +12,8 @@ const Github = () => (
             <style>
                 {`
                     .cls-1 {
-                        fill: none;
-                        stroke: #000000;
+                        fill: white; 
+                        stroke: #133b57;  
                         stroke-linecap: round;
                         stroke-linejoin: round;
                         fill-rule:evenodd;
