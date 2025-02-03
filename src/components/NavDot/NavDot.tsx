@@ -47,7 +47,7 @@ const NavDots: React.FC<NavDotsProps> = ({ sectionIds }) => {
     <ul id="nav-bullets">
       {sectionIds.map((sectionId, index) => (
         <li key={sectionId}>
-          <button
+          <button 
             type="button"
             aria-label={`Go to section: ${sectionId}`}
             className={`nav-bullet ${index === activeIndex ? "current" : ""}`}

@@ -1,0 +1,19 @@
+    [
+        {
+        "id": 1,
+        "title": "My First Blog Post",
+        "date": "2025-02-02",
+        "author": "John Doe",
+        "tags": ["react", "typescript", "webdev"],
+        "content": "This is the content of my first blog post. It could contain Markdown or HTML."
+        },
+        {
+        "id": 2,
+        "title": "Why I Love React",
+        "date": "2025-02-09",
+        "author": "Jane Smith",
+        "tags": ["react", "frontend", "javascript"],
+        "content": "In this post, I talk about the amazing features of React and why I chose it for my projects."
+        }
+    ]
+    

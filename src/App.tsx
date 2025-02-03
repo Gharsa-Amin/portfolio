@@ -7,6 +7,7 @@ import "./App.css";
 import FooterSection from "./components/Footer/Footer";
 
 import AboutMe from "./components/AboutMe/AboutMe";
+import BlogPost from "./components/BlogPost/BlogPost";
 
 	function App() {
 	return (
@@ -15,7 +16,7 @@ import AboutMe from "./components/AboutMe/AboutMe";
 		<Routes>
 			
 			<Route path="/aboutme" element={<AboutMe />} />
-			<Route path="/blog" element={<div>Blog Page</div>} />
+			<Route path="/blog/:postId" element={<BlogPost />} />
 		</Routes>
 		<FooterSection />
 		</BrowserRouter>
