@@ -10,9 +10,11 @@ import AboutMe from "./components/AboutMe/AboutMe";
 import BlogPost from "./components/BlogPost/BlogPost";
 import ScrollTriggerPopup from "./components/TrackScrolling/TrackScrolling";
 
+
 	function App() {
 	return (
 		<BrowserRouter>
+		
 		<NavBar />
 		<Routes>
 			
