@@ -8,6 +8,7 @@ import FooterSection from "./components/Footer/Footer";
 
 import AboutMe from "./components/AboutMe/AboutMe";
 import BlogPost from "./components/BlogPost/BlogPost";
+import ScrollTriggerPopup from "./components/TrackScrolling/TrackScrolling";
 
 	function App() {
 	return (
@@ -18,6 +19,7 @@ import BlogPost from "./components/BlogPost/BlogPost";
 			<Route path="/aboutme" element={<AboutMe />} />
 			<Route path="/blog/:postId" element={<BlogPost />} />
 		</Routes>
+		<ScrollTriggerPopup />
 		<FooterSection />
 		</BrowserRouter>
 	);
