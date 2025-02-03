@@ -58,20 +58,27 @@ body.dark-theme {
 	width: 100%;
 	padding: 0.625rem;
 	box-sizing: border-box;
-	padding-top: 4rem;
+	padding-top: 2rem;
 	gap: 10rem;
 
 	&__right {
 		display: flex;
 		align-items: center;
+		font-size: 1.25rem;
+		font-size: 1.875rem;
 	}
 
 	&__left {
 		display: flex;
 		align-items: center;
+		font-size: 1.875rem;
 	}
 }
-
+.theme-icon {
+	margin-right: 16px;
+	padding-left: 30px;
+	padding-top: 12px;
+}
 a {
 	text-decoration: none;
 	color: rgba(226, 228, 233, 0.82);
