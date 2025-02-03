@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './TrackScrolling.scss'; // Assuming your Sass is compiled to CSS
+import './TrackScrolling.scss'; 
 import girl from "../../assets/images/pngtree-cute-cartoon-girl-with-big-eyes-looking-up-png-image_14149087.png"
 const ScrollTriggerPopup: React.FC = () => {
   const [isBottom, setIsBottom] = useState<boolean>(false);
@@ -28,11 +28,12 @@ const ScrollTriggerPopup: React.FC = () => {
       {isBottom && (
         <div className={`popup ${isBottom ? 'show' : ''}`}>
           <img
-            src={girl} // Replace with your actual image path or URL
+            src={girl} 
             alt="A cute woman"
             className="popup-image"
           />
-          <button onClick={() => alert("Let's chat!")}>Start Chat</button>
+          {/* <button onClick={() => alert("Let's chat!")}>Subscribe to the blog here!</button> */}
+          {/* <p>Thank you for visiting. If you have any open roles, or would like to collaborate, send me an email.</p> */}
         </div>
       )}
     </div>
