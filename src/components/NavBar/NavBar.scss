@@ -1,7 +1,20 @@
+@use "../../assets/styles/partials/mixins.scss" as *;
+@use "../../assets/styles/partials/variables.scss" as *;
+
 body.light-theme {
 	background-color: white;
 	color: black;
 	transition: background-color 0.3s, color 0.3s;
+
+	a {
+		color: $BackgroundColor;
+	}
+	.aboutMe__wrapper {
+		color: $GlobalTextDarkBlue;
+	}
+	.aboutMe__hero-paragraph {
+		color: $GlobalTextDarkBlue;
+	}
 }
 
 body.dark-theme {
@@ -26,6 +39,12 @@ body.dark-theme {
 	// color: rgb(206, 206, 206);
 	color: rgba(226, 228, 233, 0.82);
 	transition: background-color 0.3s, color 0.3s;
+	.aboutMe__wrapper {
+		color: rgba(226, 228, 233, 0.82);
+	}
+	.aboutMe__hero-paragraph {
+		color: rgba(226, 228, 233, 0.82);
+	}
 }
 
 .theme-gif img {
@@ -35,10 +54,12 @@ body.dark-theme {
 
 .nav {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	width: 100%;
 	padding: 0.625rem;
 	box-sizing: border-box;
+	padding-top: 4rem;
+	gap: 10rem;
 
 	&__right {
 		display: flex;
@@ -49,4 +70,9 @@ body.dark-theme {
 		display: flex;
 		align-items: center;
 	}
+}
+
+a {
+	text-decoration: none;
+	color: rgba(226, 228, 233, 0.82);
 }

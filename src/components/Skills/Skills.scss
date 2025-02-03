@@ -15,18 +15,18 @@
 
 .skills__icons {
 	display: flex;
-	animation: moveRight 10s linear infinite;
+	animation: moveLeft 30s linear infinite;
 }
 
 .skills__icon {
 	margin: 0 10px;
 }
 
-@keyframes moveRight {
+@keyframes moveLeft {
 	0% {
-		transform: translateX(0);
+		transform: translateX(100%);
 	}
 	100% {
-		transform: translateX(100%);
+		transform: translateX(-100%);
 	}
 }
