@@ -152,17 +152,6 @@ const Projects: React.FC = () => {
                     <img className="projects__image"  src={Snaps} width="300px" alt="" />
                     </div>
                 </section>
-
-
-
-
-
-
-
-
-
-
-
 </section>
 </section>
     );
