@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import blogPosts from "../../assets/data/Blog.json"; 
-
+import "./BlogPost.scss"; 
 const BlogPost: React.FC = () => {
   const { postId } = useParams<{ postId: string }>(); 
   const [post, setPost] = useState<any>(null);
@@ -30,12 +30,12 @@ const BlogPost: React.FC = () => {
 
   return (
     <div className="blog-post-detail">
-      <h1>{post.title}</h1>
-      <p><strong>Author:</strong> {post.author}</p>
-      <p><strong>Tags:</strong> {post.tags.join(", ")}</p>
-      <p><strong>Date:</strong> {post.date}</p>
+      <h1 className="blog-post-header">{post.title}</h1>
+      <p className="blog-post-paragraph"><strong>Author:</strong> {post.author}</p>
+      <p className="blog-post-paragraph"><strong>Tags:</strong> {post.tags.join(", ")}</p>
+      <p className="blog-post-paragraph"><strong>Date:</strong> {post.date}</p>
       {/* Render HTML content */}
-      <div dangerouslySetInnerHTML={{ __html: post.content }} /> 
+      <div className="blog-post-text" dangerouslySetInnerHTML={{ __html: post.content }} /> 
     </div>
   );
 };

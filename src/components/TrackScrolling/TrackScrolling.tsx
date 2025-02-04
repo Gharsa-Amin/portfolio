@@ -33,7 +33,7 @@ const ScrollTriggerPopup: React.FC = () => {
             className="popup-image"
           />
           <a href="https://docs.google.com/document/d/1HsrdbQeJgicNc61FJUidokFT_3hioFf66TAG9DE2vAo/edit?usp=sharing">
-          <button onClick={() => alert("Resume Page will open!")}>My Resume</button> </a>
+          <button className="my-resume"  onClick={() => alert("Resume Page will open!")}>My Resume</button> </a>
        
         </div>
       )}

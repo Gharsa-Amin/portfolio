@@ -23,6 +23,18 @@ body.light-theme {
 		background-color: #a7c7e7;
 		color: #333333;
 	}
+	.blog-post-header {
+		color: $blueColor;
+	}
+	.blog-post-paragraph {
+		color: $GlobalTextGrey;
+	}
+	.blog-post-text {
+		color: $GlobalTextDarkBlue;
+	}
+	.my-resume {
+		background-color: $ButtonColor;
+	}
 }
 
 body.dark-theme {
@@ -60,6 +72,9 @@ body.dark-theme {
 	.recommendations-card {
 		background-color: #f8f8f8;
 		color: #333333;
+	}
+	button {
+		background-color: rgba(219, 228, 236, 0.962);
 	}
 }
 
