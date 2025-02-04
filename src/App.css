@@ -42,3 +42,22 @@ body {
 .read-the-docs {
   color: #888;
 }
+body {
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 400;  /* Regular */
+}
+
+h1 {
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 100;  /* Thin */
+}
+
+h2 {
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 200;  /* ExtraLight */
+}
+
+p {
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 300;  /* Light */
+}

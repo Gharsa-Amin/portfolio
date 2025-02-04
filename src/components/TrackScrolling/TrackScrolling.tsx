@@ -32,8 +32,9 @@ const ScrollTriggerPopup: React.FC = () => {
             alt="A cute woman"
             className="popup-image"
           />
-          {/* <button onClick={() => alert("Let's chat!")}>Subscribe to the blog here!</button> */}
-          {/* <p>Thank you for visiting. If you have any open roles, or would like to collaborate, send me an email.</p> */}
+          <a href="https://docs.google.com/document/d/1HsrdbQeJgicNc61FJUidokFT_3hioFf66TAG9DE2vAo/edit?usp=sharing">
+          <button onClick={() => alert("Resume Page will open!")}>My Resume</button> </a>
+       
         </div>
       )}
     </div>

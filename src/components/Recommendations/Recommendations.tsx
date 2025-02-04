@@ -20,20 +20,26 @@ const Recommendations: React.FC = () => {
                 <div className="recommendations-header">
                 <img className="recommendations-headshot" src={Venessa} alt="" />
                 <p>Vanessa Tseng</p></div>
-                <p className="recommendations-paragraph">Brainstation Software Engineering <GraduateSVG />
+                <p className="recommendations-paragraph recommendations-paragraph-modifier" >Brainstation Software Engineering <GraduateSVG />
                     </p>
                 
                 <p className="recommendations-paragraph">I had the pleasure of being classmates with Gharsa at BrainStation, where she stood out as a proactive learner, always eager to answer questions in class and volunteer for tasks. I also had the opportunity to collaborate with her on a stock inventory project and she was an absolute joy to work with. Gharsa consistently ensured her tasks were completed on time and demonstrated exceptional communication skills throughout the project.
                     I highly recommend Gharsa to join any team.</p>
                     <a href="https://www.linkedin.com/in/gharsanay-amin/details/recommendations/?detailScreenTabIndex=0" >
-                    <button className="recommendations-button">Visit the page <ArrowUp /></button> </a>
+                    <button className="recommendations-button">Visit the page <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" width="20px" stroke="currentColor" className="size-6">
+    <path 
+        strokeLinecap="round" 
+        strokeLinejoin="round" 
+        d="M15.042 21.672 13.684 16.6m0 0-2.51 2.225.569-9.47 5.227 7.917-3.286-.672ZM12 2.25V4.5m5.834.166-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243-1.59-1.59" 
+    />
+    </svg></button> </a>
             </section>
             <section className="recommendations-card">
             <div className="recommendations-header">
                
                 <img className="recommendations-headshot" src={Laura} alt="" /> 
                 <p>Laura Courtney</p></div>
-                <p className="recommendations-paragraph">Brainstation Software Engineering <GraduateSVG /></p>
+                <p className="recommendations-paragraph recommendations-paragraph-modifier">Brainstation Software Engineering <GraduateSVG /></p>
               
                 <p className="recommendations-paragraph">Gharsa is such an absolute delight to work and learn along side. 
 
@@ -41,7 +47,13 @@ Not only is she extremely intelligent and hard working, but she is also kind and
 
 She is a natural leader who always steps up to the plate, is not afraid to ask the important questions, and who supports and inspires everyone around her. A true asset to any team and an all around wonderful person.</p>
 <a href="https://www.linkedin.com/in/gharsanay-amin/details/recommendations/?detailScreenTabIndex=0" >
-<button className="recommendations-button">Visit the page <ArrowUp /></button> </a>
+<button className="recommendations-button">Visit the page <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" width="20px" stroke="currentColor" className="size-6">
+    <path 
+        strokeLinecap="round" 
+        strokeLinejoin="round" 
+        d="M15.042 21.672 13.684 16.6m0 0-2.51 2.225.569-9.47 5.227 7.917-3.286-.672ZM12 2.25V4.5m5.834.166-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243-1.59-1.59" 
+    />
+    </svg></button> </a>
             </section>
 
             <section className="recommendations-card">
@@ -49,21 +61,27 @@ She is a natural leader who always steps up to the plate, is not afraid to ask t
                
                 <img className="recommendations-headshot" src={Sivi} alt="" /> 
                 <p>Sivi Rakaj</p></div>
-                <p className="recommendations-paragraph">Brainstation Software Engineering <GraduateSVG /></p>
+                <p className="recommendations-paragraph recommendations-paragraph-modifier">Brainstation Software Engineering <GraduateSVG /></p>
                 
                 <p className="recommendations-paragraph">I’m excited to recommend Gharsa, a talented and dedicated software engineer who has recently graduated. Skilled in Node.js, React.js, and building scalable web applications, Gharsa consistently demonstrated exceptional problem-solving and collaboration abilities during our time working together on different projects during the program. 
 
 Gharsa’s strong technical foundation, innovative mindset, and eagerness to learn make them an excellent fit for any team. She will excel in her career! </p>
                 <a href="https://www.linkedin.com/in/gharsanay-amin/details/recommendations/?detailScreenTabIndex=0" >
                 <button className="recommendations-button">Visit the page 
-                <ArrowUp /></button> </a>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" width="20px" stroke="currentColor" className="size-6">
+    <path 
+        strokeLinecap="round" 
+        strokeLinejoin="round" 
+        d="M15.042 21.672 13.684 16.6m0 0-2.51 2.225.569-9.47 5.227 7.917-3.286-.672ZM12 2.25V4.5m5.834.166-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243-1.59-1.59" 
+    />
+    </svg></button> </a>
             </section>
             <section className="recommendations-card">
             <div className="recommendations-header">
                
                 <img className="recommendations-headshot" src={Ayesha} alt="" /> 
                 <p>Ayesha Banu</p></div>
-                <p className="recommendations-paragraph">Brainstation Software Engineering <GraduateSVG /></p>
+                <p className="recommendations-paragraph recommendations-paragraph-modifier">Brainstation Software Engineering <GraduateSVG /></p>
                
             <p className="recommendations-paragraph">I can confidently say that Gharsa is an exceptional individual. She is not only highly knowledgeable in Web Development, but she also has a remarkable ability to communicate complex ideas in an approachable way.
 
@@ -71,7 +89,13 @@ What sets Gharsa apart is her positive attitude and willingness to help others, 
 </p>
 <a href="https://www.linkedin.com/in/gharsanay-amin/details/recommendations/?detailScreenTabIndex=0" >
                 <button className="recommendations-button">Visit the page 
-                    <ArrowUp />
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" width="20px" stroke="currentColor" className="size-6">
+    <path 
+        strokeLinecap="round" 
+        strokeLinejoin="round" 
+        d="M15.042 21.672 13.684 16.6m0 0-2.51 2.225.569-9.47 5.227 7.917-3.286-.672ZM12 2.25V4.5m5.834.166-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243-1.59-1.59" 
+    />
+    </svg>
                     </button>
                     
                      </a>
@@ -80,20 +104,26 @@ What sets Gharsa apart is her positive attitude and willingness to help others, 
                 <div className="recommendations-header">
                 <img className="recommendations-headshot" src={Venessa} alt="" />
                 <p>Vanessa Tseng</p></div>
-                <p className="recommendations-paragraph">Brainstation Software Engineering <GraduateSVG />
+                <p className="recommendations-paragraph recommendations-paragraph-modifier">Brainstation Software Engineering <GraduateSVG />
                     </p>
                 
                 <p className="recommendations-paragraph">I had the pleasure of being classmates with Gharsa at BrainStation, where she stood out as a proactive learner, always eager to answer questions in class and volunteer for tasks. I also had the opportunity to collaborate with her on a stock inventory project and she was an absolute joy to work with. Gharsa consistently ensured her tasks were completed on time and demonstrated exceptional communication skills throughout the project.
                     I highly recommend Gharsa to join any team.</p>
                     <a href="https://www.linkedin.com/in/gharsanay-amin/details/recommendations/?detailScreenTabIndex=0" >
-                    <button className="recommendations-button">Visit the page <ArrowUp /></button> </a>
+                    <button className="recommendations-button">Visit the page <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" width="20px" stroke="currentColor" className="size-6">
+    <path 
+        strokeLinecap="round" 
+        strokeLinejoin="round" 
+        d="M15.042 21.672 13.684 16.6m0 0-2.51 2.225.569-9.47 5.227 7.917-3.286-.672ZM12 2.25V4.5m5.834.166-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243-1.59-1.59" 
+    />
+    </svg></button> </a>
             </section>
             <section className="recommendations-card">
             <div className="recommendations-header">
                
                 <img className="recommendations-headshot" src={Laura} alt="" /> 
                 <p>Laura Courtney</p></div>
-                <p className="recommendations-paragraph">Brainstation Software Engineering <GraduateSVG /></p>
+                <p className="recommendations-paragraph recommendations-paragraph-modifier">Brainstation Software Engineering <GraduateSVG /></p>
               
                 <p className="recommendations-paragraph">Gharsa is such an absolute delight to work and learn along side. 
 
@@ -101,7 +131,13 @@ Not only is she extremely intelligent and hard working, but she is also kind and
 
 She is a natural leader who always steps up to the plate, is not afraid to ask the important questions, and who supports and inspires everyone around her. A true asset to any team and an all around wonderful person.</p>
 <a href="https://www.linkedin.com/in/gharsanay-amin/details/recommendations/?detailScreenTabIndex=0" >
-<button className="recommendations-button">Visit the page <ArrowUp /></button> </a>
+<button className="recommendations-button">Visit the page<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" width="20px" stroke="currentColor" className="size-6">
+    <path 
+        strokeLinecap="round" 
+        strokeLinejoin="round" 
+        d="M15.042 21.672 13.684 16.6m0 0-2.51 2.225.569-9.47 5.227 7.917-3.286-.672ZM12 2.25V4.5m5.834.166-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243-1.59-1.59" 
+    />
+    </svg></button> </a>
             </section>
 
             <section className="recommendations-card">
@@ -109,21 +145,27 @@ She is a natural leader who always steps up to the plate, is not afraid to ask t
                
                 <img className="recommendations-headshot" src={Sivi} alt="" /> 
                 <p>Sivi Rakaj</p></div>
-                <p className="recommendations-paragraph">Brainstation Software Engineering <GraduateSVG /></p>
+                <p className="recommendations-paragraph recommendations-paragraph-modifier">Brainstation Software Engineering <GraduateSVG /></p>
                 
                 <p className="recommendations-paragraph">I’m excited to recommend Gharsa, a talented and dedicated software engineer who has recently graduated. Skilled in Node.js, React.js, and building scalable web applications, Gharsa consistently demonstrated exceptional problem-solving and collaboration abilities during our time working together on different projects during the program. 
 
 Gharsa’s strong technical foundation, innovative mindset, and eagerness to learn make them an excellent fit for any team. She will excel in her career! </p>
                 <a href="https://www.linkedin.com/in/gharsanay-amin/details/recommendations/?detailScreenTabIndex=0" >
                 <button className="recommendations-button">Visit the page 
-                <ArrowUp /></button> </a>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" width="20px" stroke="currentColor" className="size-6">
+    <path 
+        strokeLinecap="round" 
+        strokeLinejoin="round" 
+        d="M15.042 21.672 13.684 16.6m0 0-2.51 2.225.569-9.47 5.227 7.917-3.286-.672ZM12 2.25V4.5m5.834.166-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243-1.59-1.59" 
+    />
+    </svg></button> </a>
             </section>
             <section className="recommendations-card">
             <div className="recommendations-header">
                
                 <img className="recommendations-headshot" src={Ayesha} alt="" /> 
                 <p>Ayesha Banu</p></div>
-                <p className="recommendations-paragraph">Brainstation Software Engineering <GraduateSVG /></p>
+                <p className="recommendations-paragraph recommendations-paragraph-modifier">Brainstation Software Engineering <GraduateSVG /></p>
                
             <p className="recommendations-paragraph">I can confidently say that Gharsa is an exceptional individual. She is not only highly knowledgeable in Web Development, but she also has a remarkable ability to communicate complex ideas in an approachable way.
 
@@ -131,7 +173,13 @@ What sets Gharsa apart is her positive attitude and willingness to help others, 
 </p>
 <a href="https://www.linkedin.com/in/gharsanay-amin/details/recommendations/?detailScreenTabIndex=0" >
                 <button className="recommendations-button">Visit the page 
-                    <ArrowUp />
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" width="20px" stroke="currentColor" className="size-6">
+    <path 
+        strokeLinecap="round" 
+        strokeLinejoin="round" 
+        d="M15.042 21.672 13.684 16.6m0 0-2.51 2.225.569-9.47 5.227 7.917-3.286-.672ZM12 2.25V4.5m5.834.166-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243-1.59-1.59" 
+    />
+    </svg>
                     </button>
                     
                      </a>

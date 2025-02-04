@@ -21,7 +21,7 @@ function App() {
         <Route path="/blog/:postId" element={<BlogPost />} />
       </Routes>
 	  <ScrollTriggerPopup />
-      {/* <FooterSection /> */}
+      <FooterSection />
 	  
     </BrowserRouter>
   );

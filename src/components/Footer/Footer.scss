@@ -3,6 +3,8 @@
 	&__wrapper {
 		display: flex;
 		gap: 1.25rem;
+		padding: 3rem;
+		justify-content: flex-end;
 	}
 	&__items {
 		display: flex;
