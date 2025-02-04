@@ -7,14 +7,11 @@ const BlogPost: React.FC = () => {
   const [post, setPost] = useState<any>(null);
 
   useEffect(() => {
-   
     console.log("postId from URL:", postId);
 
     if (postId) {
-      
       console.log("Available blog posts:", blogPosts);
 
-   
       const selectedPost = blogPosts.find(
         (post) => post.id.toString() === postId 
       );
@@ -37,7 +34,8 @@ const BlogPost: React.FC = () => {
       <p><strong>Author:</strong> {post.author}</p>
       <p><strong>Tags:</strong> {post.tags.join(", ")}</p>
       <p><strong>Date:</strong> {post.date}</p>
-      <div>{post.content}</div>  
+      {/* Render HTML content */}
+      <div dangerouslySetInnerHTML={{ __html: post.content }} /> 
     </div>
   );
 };

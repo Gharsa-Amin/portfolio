@@ -2,11 +2,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import blogPosts from "../assets/data/Blog.json";
-
+import  "./BlogPage.scss"; 
 const BlogPage: React.FC = () => {
 	return (
 		<div className="blog-page">
-			<h1>Blog</h1>
+			
 			<div className="blog-list">
 				{blogPosts.map((post) => (
 					<div key={post.id} className="blog-item">
@@ -18,9 +18,6 @@ const BlogPage: React.FC = () => {
 						</p>
 						<p>
 							<strong>Date:</strong> {post.date}
-						</p>
-						<p>
-							<strong>Tags:</strong> {post.tags.join(", ")}
 						</p>
 					</div>
 				))}

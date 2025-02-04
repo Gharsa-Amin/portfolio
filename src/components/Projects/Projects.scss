@@ -1,12 +1,13 @@
 @use "../../assets/styles/partials/mixins.scss" as *;
 @use "../../assets/styles/partials/variables.scss" as *;
-
+@use "../../assets/styles/partials/typography.scss" as *;
 .projects {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-self: center;
 	width: 80%;
+	font-family: "League Spartan";
 	&-wrapper {
 		display: flex;
 		flex-direction: column;
@@ -47,8 +48,7 @@
 	}
 	&__header {
 		@include flex-column;
-		font-size: 3.75rem;
-		font-weight: 300;
+		font-size: 4rem;
 		padding-bottom: 2.5rem;
 	}
 }

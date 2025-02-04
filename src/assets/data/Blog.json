@@ -1,19 +1,20 @@
     [
         {
         "id": 1,
-        "title": "My First Blog Post",
-        "date": "2025-02-02",
-        "author": "John Doe",
-        "tags": ["react", "typescript", "webdev"],
-        "content": "This is the content of my first blog post. It could contain Markdown or HTML."
-        },
+        "title": "Why I think Blockchain and Quantum can transform technological revolution",
+        "date": "2025-02-03",
+        "author": "Gharsa Amin",
+        "tags": ["Computing", "Blockchain", "Quantum"],
+        "content": "<p>Blockchain and Quantum technologies are transforming the future of computing. These innovations are poised to revolutionize data security, processing speeds, and efficiency.</p><p>In the coming years, we might see more applications of these technologies in real-world scenarios, from secure data transactions to more powerful computing systems.</p>"
+        }, 
+
         {
-        "id": 2,
-        "title": "Why I Love React",
-        "date": "2025-02-09",
-        "author": "Jane Smith",
-        "tags": ["react", "frontend", "javascript"],
-        "content": "In this post, I talk about the amazing features of React and why I chose it for my projects."
-        }
-    ]
+            "id": 2,
+            "title": "How did React help me get started on Front-end, back-end, and Databases",
+            "date": "2025-02-03",
+            "author": "Gharsa Amin",
+            "tags": ["Computing", "Blockchain", "Quantum"],
+            "content": ""
+            }
+    ] 
     
