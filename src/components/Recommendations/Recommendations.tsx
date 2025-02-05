@@ -8,6 +8,7 @@ import Ayesha from "../../assets/images/Ayesha.jpeg";
 
 import ArrowUp from "../ArrowUp/ArrowUp";
 import GraduateSVG from "../GraduateSVG/GraduateSVG";
+import SVGProjectLiveDemo from "../SVGProjectLiveDemo/SVGProjectLiveDemo";
 
 const Recommendations: React.FC = () => {
     return (
@@ -26,13 +27,7 @@ const Recommendations: React.FC = () => {
                 <p className="recommendations-paragraph">I had the pleasure of being classmates with Gharsa at BrainStation, where she stood out as a proactive learner, always eager to answer questions in class and volunteer for tasks. I also had the opportunity to collaborate with her on a stock inventory project and she was an absolute joy to work with. Gharsa consistently ensured her tasks were completed on time and demonstrated exceptional communication skills throughout the project.
                     I highly recommend Gharsa to join any team.</p>
                     <a href="https://www.linkedin.com/in/gharsanay-amin/details/recommendations/?detailScreenTabIndex=0" >
-                    <button className="recommendations-button">Visit the page <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" width="20px" stroke="currentColor" className="size-6">
-    <path 
-        strokeLinecap="round" 
-        strokeLinejoin="round" 
-        d="M15.042 21.672 13.684 16.6m0 0-2.51 2.225.569-9.47 5.227 7.917-3.286-.672ZM12 2.25V4.5m5.834.166-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243-1.59-1.59" 
-    />
-    </svg></button> </a>
+                    <button className="recommendations-button">Visit the page <SVGProjectLiveDemo /></button> </a>
             </section>
             <section className="recommendations-card">
             <div className="recommendations-header">
@@ -47,13 +42,7 @@ Not only is she extremely intelligent and hard working, but she is also kind and
 
 She is a natural leader who always steps up to the plate, is not afraid to ask the important questions, and who supports and inspires everyone around her. A true asset to any team and an all around wonderful person.</p>
 <a href="https://www.linkedin.com/in/gharsanay-amin/details/recommendations/?detailScreenTabIndex=0" >
-<button className="recommendations-button">Visit the page <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" width="20px" stroke="currentColor" className="size-6">
-    <path 
-        strokeLinecap="round" 
-        strokeLinejoin="round" 
-        d="M15.042 21.672 13.684 16.6m0 0-2.51 2.225.569-9.47 5.227 7.917-3.286-.672ZM12 2.25V4.5m5.834.166-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243-1.59-1.59" 
-    />
-    </svg></button> </a>
+<button className="recommendations-button">Visit the page <SVGProjectLiveDemo /></button> </a>
             </section>
 
             <section className="recommendations-card">
@@ -68,13 +57,7 @@ She is a natural leader who always steps up to the plate, is not afraid to ask t
 Gharsa’s strong technical foundation, innovative mindset, and eagerness to learn make them an excellent fit for any team. She will excel in her career! </p>
                 <a href="https://www.linkedin.com/in/gharsanay-amin/details/recommendations/?detailScreenTabIndex=0" >
                 <button className="recommendations-button">Visit the page 
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" width="20px" stroke="currentColor" className="size-6">
-    <path 
-        strokeLinecap="round" 
-        strokeLinejoin="round" 
-        d="M15.042 21.672 13.684 16.6m0 0-2.51 2.225.569-9.47 5.227 7.917-3.286-.672ZM12 2.25V4.5m5.834.166-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243-1.59-1.59" 
-    />
-    </svg></button> </a>
+                <SVGProjectLiveDemo /></button> </a>
             </section>
             <section className="recommendations-card">
             <div className="recommendations-header">
@@ -89,13 +72,7 @@ What sets Gharsa apart is her positive attitude and willingness to help others, 
 </p>
 <a href="https://www.linkedin.com/in/gharsanay-amin/details/recommendations/?detailScreenTabIndex=0" >
                 <button className="recommendations-button">Visit the page 
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" width="20px" stroke="currentColor" className="size-6">
-    <path 
-        strokeLinecap="round" 
-        strokeLinejoin="round" 
-        d="M15.042 21.672 13.684 16.6m0 0-2.51 2.225.569-9.47 5.227 7.917-3.286-.672ZM12 2.25V4.5m5.834.166-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243-1.59-1.59" 
-    />
-    </svg>
+                <SVGProjectLiveDemo />
                     </button>
                     
                      </a>
@@ -110,13 +87,7 @@ What sets Gharsa apart is her positive attitude and willingness to help others, 
                 <p className="recommendations-paragraph">I had the pleasure of being classmates with Gharsa at BrainStation, where she stood out as a proactive learner, always eager to answer questions in class and volunteer for tasks. I also had the opportunity to collaborate with her on a stock inventory project and she was an absolute joy to work with. Gharsa consistently ensured her tasks were completed on time and demonstrated exceptional communication skills throughout the project.
                     I highly recommend Gharsa to join any team.</p>
                     <a href="https://www.linkedin.com/in/gharsanay-amin/details/recommendations/?detailScreenTabIndex=0" >
-                    <button className="recommendations-button">Visit the page <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" width="20px" stroke="currentColor" className="size-6">
-    <path 
-        strokeLinecap="round" 
-        strokeLinejoin="round" 
-        d="M15.042 21.672 13.684 16.6m0 0-2.51 2.225.569-9.47 5.227 7.917-3.286-.672ZM12 2.25V4.5m5.834.166-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243-1.59-1.59" 
-    />
-    </svg></button> </a>
+                    <button className="recommendations-button">Visit the page <SVGProjectLiveDemo /></button> </a>
             </section>
             <section className="recommendations-card">
             <div className="recommendations-header">
@@ -131,13 +102,7 @@ Not only is she extremely intelligent and hard working, but she is also kind and
 
 She is a natural leader who always steps up to the plate, is not afraid to ask the important questions, and who supports and inspires everyone around her. A true asset to any team and an all around wonderful person.</p>
 <a href="https://www.linkedin.com/in/gharsanay-amin/details/recommendations/?detailScreenTabIndex=0" >
-<button className="recommendations-button">Visit the page<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" width="20px" stroke="currentColor" className="size-6">
-    <path 
-        strokeLinecap="round" 
-        strokeLinejoin="round" 
-        d="M15.042 21.672 13.684 16.6m0 0-2.51 2.225.569-9.47 5.227 7.917-3.286-.672ZM12 2.25V4.5m5.834.166-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243-1.59-1.59" 
-    />
-    </svg></button> </a>
+<button className="recommendations-button">Visit the page<SVGProjectLiveDemo /></button> </a>
             </section>
 
             <section className="recommendations-card">
@@ -152,13 +117,7 @@ She is a natural leader who always steps up to the plate, is not afraid to ask t
 Gharsa’s strong technical foundation, innovative mindset, and eagerness to learn make them an excellent fit for any team. She will excel in her career! </p>
                 <a href="https://www.linkedin.com/in/gharsanay-amin/details/recommendations/?detailScreenTabIndex=0" >
                 <button className="recommendations-button">Visit the page 
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" width="20px" stroke="currentColor" className="size-6">
-    <path 
-        strokeLinecap="round" 
-        strokeLinejoin="round" 
-        d="M15.042 21.672 13.684 16.6m0 0-2.51 2.225.569-9.47 5.227 7.917-3.286-.672ZM12 2.25V4.5m5.834.166-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243-1.59-1.59" 
-    />
-    </svg></button> </a>
+                <SVGProjectLiveDemo /></button> </a>
             </section>
             <section className="recommendations-card">
             <div className="recommendations-header">
@@ -173,13 +132,7 @@ What sets Gharsa apart is her positive attitude and willingness to help others, 
 </p>
 <a href="https://www.linkedin.com/in/gharsanay-amin/details/recommendations/?detailScreenTabIndex=0" >
                 <button className="recommendations-button">Visit the page 
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" width="20px" stroke="currentColor" className="size-6">
-    <path 
-        strokeLinecap="round" 
-        strokeLinejoin="round" 
-        d="M15.042 21.672 13.684 16.6m0 0-2.51 2.225.569-9.47 5.227 7.917-3.286-.672ZM12 2.25V4.5m5.834.166-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243-1.59-1.59" 
-    />
-    </svg>
+                <SVGProjectLiveDemo />
                     </button>
                     
                      </a>
