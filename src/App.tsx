@@ -16,7 +16,7 @@ function App() {
      <WelcomePopUp imageUrl={image} />
       <NavBar />
       <Routes>
-        <Route path="/aboutme" element={<AboutMe />} />
+        <Route path="/" element={<AboutMe />} />
         <Route path="/blog" element={<BlogPage />} /> 
         <Route path="/blog/:postId" element={<BlogPost />} />
       </Routes>

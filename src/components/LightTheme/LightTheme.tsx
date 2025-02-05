@@ -22,7 +22,7 @@ const LightTheme = () => (
     <path className="b" d="M39.5,36h3"/>
     <path className="b" d="M41,34.5l.02,3"/>
   </svg>
-   
+  
   );
   
   export default LightTheme;
