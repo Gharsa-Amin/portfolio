@@ -1,0 +1,15 @@
+@use "../assets/styles/partials/mixins.scss" as *;
+@use "../assets/styles/partials/typography.scss" as *;
+@use "../assets/styles/partials/variables.scss" as *;
+.blog-page {
+	@include flex-column;
+}
+
+.blog-item {
+	@include flex-column;
+	padding-left: 2rem;
+}
+.blog-item__header {
+	@include flex-column;
+	padding-left: 2rem;
+}

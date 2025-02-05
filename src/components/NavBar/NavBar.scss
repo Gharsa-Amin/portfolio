@@ -1,0 +1,116 @@
+@use "../../assets/styles/partials/mixins.scss" as *;
+@use "../../assets/styles/partials/variables.scss" as *;
+
+body.light-theme {
+	background-color: white;
+	color: black;
+	transition: background-color 0.3s, color 0.3s;
+
+	a {
+		color: $BackgroundColor;
+	}
+	.aboutMe__wrapper {
+		color: $GlobalTextDarkBlue;
+	}
+	.aboutMe__hero-paragraph {
+		color: $GlobalTextDarkBlue;
+	}
+	.projects__card {
+		background-color: #a7c7e7;
+		color: #333333;
+	}
+	.recommendations-card {
+		background-color: #a7c7e7;
+		color: #333333;
+	}
+	.blog-post-header {
+		color: $blueColor;
+	}
+	.blog-post-paragraph {
+		color: $GlobalTextGrey;
+	}
+	.blog-post-text {
+		color: $GlobalTextDarkBlue;
+	}
+	.my-resume {
+		background-color: $ButtonColor;
+	}
+}
+
+body.dark-theme {
+	// background-color: rgb(26, 24, 31);
+	// background-image: linear-gradient(
+	// 	to right top,
+	// 	#b6398c,
+	// 	#9e378f,
+	// 	#853690,
+	// 	#69368f,
+	// 	#4a358c,
+	// 	#3a4296,
+	// 	#264e9d,
+	// 	#0058a2,
+	// 	#0073b2,
+	// 	#008bb3,
+	// 	#00a0a7,
+	// 	#04b396
+	// );
+	// background-color: rgb(30, 33, 41);
+	background-color: hsl(210deg 15% 6%);
+	// color: rgb(206, 206, 206);
+	color: rgba(226, 228, 233, 0.82);
+	transition: background-color 0.3s, color 0.3s;
+	.aboutMe__wrapper {
+		color: rgba(226, 228, 233, 0.82);
+	}
+	.aboutMe__hero-paragraph {
+		color: rgba(226, 228, 233, 0.82);
+	}
+	.projects__card {
+		background-color: #f8f8f8;
+		color: #333333;
+	}
+	.recommendations-card {
+		background-color: #f8f8f8;
+		color: #333333;
+	}
+	button {
+		background-color: rgba(219, 228, 236, 0.962);
+	}
+}
+
+.theme-gif img {
+	width: 50px;
+	height: 50px;
+}
+
+.nav {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding: 0.625rem;
+	box-sizing: border-box;
+	padding-top: 2rem;
+	gap: 10rem;
+
+	&__right {
+		display: flex;
+		align-items: center;
+		font-size: 1.25rem;
+		font-size: 1.875rem;
+	}
+
+	&__left {
+		display: flex;
+		align-items: center;
+		font-size: 1.875rem;
+	}
+}
+.theme-icon {
+	margin-right: 16px;
+	padding-left: 30px;
+	padding-top: 12px;
+}
+a {
+	text-decoration: none;
+	color: rgba(226, 228, 233, 0.82);
+}
