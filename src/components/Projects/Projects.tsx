@@ -34,7 +34,7 @@
         <Github />
                 </Link>
         </p>
-                        <a href="https://www.loom.com/share/1bc8eaf48c16401ab8231fd55a9dafd3?sid=b2fd3e03-f882-440a-8d9d-b955ffc2ed33" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/posts/activity-7285869262257221632-VLBJ?utm_source=share&utm_medium=member_desktop" target="_blank" rel="noopener noreferrer">
                             <button className="projects__button">Live Demo
                             <SVGProjectLiveDemo />
                             </button>
@@ -58,7 +58,7 @@
         Visit Github: <Link to="https://github.com/Gharsa-Amin/InStock"  target="_blank">
     <Github />
                 </Link></p>
-                        <a href="https://www.loom.com/share/1bc8eaf48c16401ab8231fd55a9dafd3?sid=b2fd3e03-f882-440a-8d9d-b955ffc2ed33" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/posts/activity-7276699414851731456--PwS?utm_source=share&utm_medium=member_desktop" target="_blank" rel="noopener noreferrer">
                             <button className="projects__button">Live Demo
                             <SVGProjectLiveDemo />
                             </button>
@@ -82,7 +82,7 @@
         Visit Github: <Link to="https://github.com/Gharsa-Amin/gharsa-amin-snaps"  target="_blank">
     <Github />
                 </Link></p>
-                        <a href="https://www.loom.com/share/1bc8eaf48c16401ab8231fd55a9dafd3?sid=b2fd3e03-f882-440a-8d9d-b955ffc2ed33" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/posts/activity-7273889164922626048-DEb5?utm_source=share&utm_medium=member_desktop" target="_blank" rel="noopener noreferrer">
                             <button className="projects__button">Live Demo
                             <SVGProjectLiveDemo />
                             </button>
