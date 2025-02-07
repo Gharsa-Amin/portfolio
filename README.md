@@ -31,4 +31,4 @@ To clone and run this project locally:
 2. Navigate into the project directory:
 3. Install the dependencies: npm install
 4. Run the development server:npm run dev
-5. 
+
