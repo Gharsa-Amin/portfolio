@@ -20,9 +20,7 @@ const AboutMe: React.FC = () => {
 <div className="aboutMe__hero">
         <img className="aboutMe__hero-image" src={image} alt="headshot" width="300px" />
         <p className="aboutMe__hero-paragraph">
-        I’m passionate about software development because it allows me to combine my problem-solving skills with my interest in building secure, impactful tools, especially in the blockchain space. My journey into programming started during my graduate degree, where I dabbled in coding but ultimately shifted focus toward compliance and trading. During this time, I realized that the tools available in the blockchain space weren’t doing enough to bridge the gap between compliance, trading, security, and innovation. This sparked my passion for software development—I wanted to build the solutions that could protect customers while fostering innovation.
-After self-teaching and completing a software engineering bootcamp, I gained hands-on experience with technologies like React, Node.js, Rust, and MySQL, and I’m now excited to apply my finance background and problem-solving skills to create high-impact software solutions. I am interested to explore the intersection of quantum and blockchain.
-        </p></div>
+Hey! I am Gharsa, I have a deep passion for solving complex problems, a curious and a creative mind to build softwares, a compassionate perspective to uplift every team I work with.        </p></div>
       </div>
 
       <div id="skills">
