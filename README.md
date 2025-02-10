@@ -1,3 +1,2 @@
-Gharsa Amin - Developer Portfolio
-
-I am using React, Next.js, Tailwind, and Typscript for this project. 
+Welcome to My Protfolio. 
+I used React, Typscript, Sass, and css for developing the portfolio. 
