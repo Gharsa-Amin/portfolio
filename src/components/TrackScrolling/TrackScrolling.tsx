@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './TrackScrolling.scss'; 
-import girl from "../../assets/images/pngtree-cute-cartoon-girl-with-big-eyes-looking-up-png-image_14149087.png"
+import girl from "../../assets/images/pngtree-cute-cartoon-girl-with-big-eyes-looking-up-png-image_14149087.png"; 
+import resume from "../../assets/resume/gharsa-amin _2025.pdf";
+
 const ScrollTriggerPopup: React.FC = () => {
   const [isBottom, setIsBottom] = useState<boolean>(false);
 
@@ -32,7 +34,7 @@ const ScrollTriggerPopup: React.FC = () => {
             alt="A cute woman"
             className="popup-image"
           />
-          <a href="https://docs.google.com/document/d/1HsrdbQeJgicNc61FJUidokFT_3hioFf66TAG9DE2vAo/edit?usp=sharing">
+          <a href={resume}>
           <button className="my-resume"  onClick={() => alert("Resume Page will open!")}>My Resume</button> </a>
        
         </div>
