@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import blogPosts from "../../assets/data/Blog.json"; 
 import { Link } from "react-router-dom";
 import "./BlogPost.scss"; 
+import FooterSection from "../Footer/Footer";
 const BlogPost: React.FC = () => {
   const { postId } = useParams<{ postId: string }>(); 
   const [post, setPost] = useState<any>(null);
@@ -51,9 +52,10 @@ const BlogPost: React.FC = () => {
       <p className="blog-post-paragraph"><strong>Author:</strong> {post.author}</p>
       <p className="blog-post-paragraph"><strong>Tags:</strong> {post.tags.join(", ")}</p>
       <p className="blog-post-paragraph"><strong>Date:</strong> {post.date}</p>
-      {/* Render HTML content */}
       <div className="blog-post-text" dangerouslySetInnerHTML={{ __html: post.content }} /> 
+      <FooterSection />
     </div>
+  
   );
 };
 

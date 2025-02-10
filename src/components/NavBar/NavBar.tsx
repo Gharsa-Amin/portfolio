@@ -31,11 +31,11 @@ const NavBar: React.FC = () => {
     <section className="nav">
       <div className="nav__right">
         <p className="nav__right-items">
-          <Link className="nav__right-items" to="/aboutme">Home</Link>
+          <Link className="nav__right-items" to="/">Home</Link>
         </p>
       </div>
       <div className="nav__left">
-        {/* Single Blog link */}
+      
         <p className="nav__left-items">
           <Link  className="nav__right-items" to="/blog">Blog</Link>
         </p>

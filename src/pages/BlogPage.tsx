@@ -3,6 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import blogPosts from "../assets/data/Blog.json";
 import  "./BlogPage.scss"; 
+import FooterSection from "../components/Footer/Footer"
 const BlogPage: React.FC = () => {
 	return (
 		<div className="blog-page">
@@ -27,7 +28,9 @@ const BlogPage: React.FC = () => {
 					</div>
 				))}
 			</div>
+			<FooterSection />
 		</div>
+		
 	);
 };
 
