@@ -4,6 +4,7 @@
     import crypto from "../../assets/images/CryptoTrading.png"
     import InStock from "../../assets/images/InStock.png"; 
     import Snaps from "../../assets/images/Snaps.png"; 
+    import TorontoLovesLocal from "../../assets/images/TorontoLovesLocal.png"
     import SVGforProjectTitle from "../SVGforProjectTitle/SVGforProjectTitle";
     import SVGforProjectPara from "../SVGProjectPara/SVGProjectPara";
     import SVGProjectNavigation from "../SVGProjectNavigation/SVGProjectNavigation";
@@ -19,6 +20,31 @@
                     <div className="projects__header">
                         My Projects  
                     </div>
+                    <section className="projects__card"> 
+        <div className="projects__content">
+                        <h2 className="projects__title">Toronto ❤ Local</h2>
+                        
+                        <p className="projects__paragraph">
+                        <SVGforProjectTitle />
+                        Team Project: A web-based platform developed to promote local businesses, utilizing a responsive, mobile-first design with an integrated directory system. The platform incorporates a secure, scalable backend to manage business listings and user interactions. </p>
+                        <p className="projects__paragraph">
+                    <SVGforProjectPara />
+        Tech Tools: React, Express.js, Node.js, PHP, WordPress, Figma</p>
+        <p className="projects__paragraph"> <SVGProjectNavigation />
+        Visit Github:  <Link to="https://github.com/Gharsa-Amin/Toronto-Loves-Local-"  target="_blank">
+        <Github />
+                </Link>
+        </p>
+                        <a href="https://torontoloveslocal.ca/" target="_blank" rel="noopener noreferrer">
+                            <button className="projects__button">Live Website
+                            <SVGProjectLiveDemo />
+                            </button>
+                        </a>
+                        </div>
+                        <div className="projects__image">
+                        <img className="projects__image"  src={TorontoLovesLocal} alt="Screenshot of the GD Chain project interface" />
+                        </div>
+                    </section>
                     <section className="projects__card"> 
         <div className="projects__content">
                         <h2 className="projects__title">GD Chain</h2>
@@ -50,7 +76,7 @@
                         
                         <p className="projects__paragraph">
                         <SVGforProjectTitle />
-            An Inventory Management System, a full-stack application with a modern React front-end communicating with a robust Express back-end using Agile development, and Jira Scrumboard.</p>
+            Team Project:An Inventory Management System, a full-stack application with a modern React front-end communicating with a robust Express back-end using Agile development, and Jira Scrumboard.</p>
                         <p className="projects__paragraph">
                         <SVGforProjectPara />
         Tech Tools: React, Express.js, Node.js, MySQL, Jira, Figma, External APIs, Agile Development</p>

@@ -20,7 +20,7 @@ const AboutMe: React.FC = () => {
 <div className="aboutMe__hero">
         <img className="aboutMe__hero-image" src={image} alt="headshot" width="300px" />
         <p className="aboutMe__hero-paragraph">
-Hey! I am Gharsa, I have a deep passion for solving complex problems, a curious and a creative mind to build softwares, a compassionate perspective to uplift every team I work with.        </p></div>
+        Hey! I'm Gharsa. I have a deep passion for tackling complex problems with creativity and curiosity. I bring a fresh perspective to software development, combined with a compassionate approach that elevates every team I work with.      </p></div>
       </div>
 
       <div id="skills">
