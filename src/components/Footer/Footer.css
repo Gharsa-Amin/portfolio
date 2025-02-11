@@ -1,0 +1,16 @@
+.footer {
+  padding-top: 3.125rem;
+}
+.footer__wrapper {
+  display: flex;
+  gap: 1.25rem;
+  padding: 3rem;
+  justify-content: flex-end;
+}
+.footer__items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: 1.5625rem;
+}/*# sourceMappingURL=Footer.css.map */

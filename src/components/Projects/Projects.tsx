@@ -5,6 +5,7 @@
     import InStock from "../../assets/images/InStock.png"; 
     import Snaps from "../../assets/images/Snaps.png"; 
     import TorontoLovesLocal from "../../assets/images/TorontoLovesLocal.png"
+    import Bandsite from "../../assets/images/Bandsite.png"; 
     import SVGforProjectTitle from "../SVGforProjectTitle/SVGforProjectTitle";
     import SVGforProjectPara from "../SVGProjectPara/SVGProjectPara";
     import SVGProjectNavigation from "../SVGProjectNavigation/SVGProjectNavigation";
@@ -116,6 +117,30 @@
                         </div>
                         <div className="projects__image">
                         <img className="projects__image"  src={Snaps} alt="Screenshot of the SNAPS project interface" />
+                        </div>
+                    </section>
+                    <section className="projects__card"> 
+        <div className="projects__content">
+                        <h2 className="projects__title">Bandsite</h2>
+                        
+                        <p className="projects__paragraph"> 
+                        <SVGforProjectTitle />
+A responsive website for a mock band, that incorporated a functional and dynamic comments sections, with a shows page.The shows page dynamically plays videos in the background. </p>
+                        <p className="projects__paragraph">
+                        <SVGforProjectPara />
+        Tech Tools:HTML, CSS, Javascript, SASS, Git</p>
+        <p className="projects__paragraph"><SVGProjectNavigation />
+        Visit Github: <Link to="https://github.com/Gharsa-Amin/gharsa-amin-bandsite"  target="_blank">
+    <Github />
+                </Link></p>
+                        <a href="https://gharsa-amin.github.io/gharsa-amin-bandsite/" target="_blank" rel="noopener noreferrer">
+                            <button className="projects__button">Live Website
+                            <SVGProjectLiveDemo />
+                            </button>
+                        </a>
+                        </div>
+                        <div className="projects__image">
+                        <img className="projects__image"  src={Bandsite} alt="Screenshot of the InStock project interface" />
                         </div>
                     </section>
     </section>

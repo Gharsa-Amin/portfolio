@@ -1,0 +1,94 @@
+body.light-theme {
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+body.light-theme a {
+  color: #133b57;
+}
+body.light-theme .aboutMe__wrapper {
+  color: #0f334d;
+}
+body.light-theme .aboutMe__hero-paragraph {
+  color: #0f334d;
+}
+body.light-theme .projects__card {
+  background-color: #a7c7e7;
+  color: #333333;
+}
+body.light-theme .recommendations-card {
+  background-color: #a7c7e7;
+  color: #333333;
+}
+body.light-theme .blog-post-header {
+  color: #e86b4b;
+}
+body.light-theme .blog-post-paragraph {
+  color: #9eaec5;
+}
+body.light-theme .blog-post-text {
+  color: #0f334d;
+}
+body.light-theme .my-resume {
+  background-color: #fcd535;
+}
+
+body.dark-theme {
+  background-color: hsl(210, 15%, 6%);
+  color: rgba(226, 228, 233, 0.82);
+  transition: background-color 0.3s, color 0.3s;
+}
+body.dark-theme .aboutMe__wrapper {
+  color: rgba(226, 228, 233, 0.82);
+}
+body.dark-theme .aboutMe__hero-paragraph {
+  color: rgba(226, 228, 233, 0.82);
+}
+body.dark-theme .projects__card {
+  background-color: #f8f8f8;
+  color: #333333;
+}
+body.dark-theme .recommendations-card {
+  background-color: #f8f8f8;
+  color: #333333;
+}
+body.dark-theme button {
+  background-color: rgba(219, 228, 236, 0.962);
+}
+
+.theme-gif img {
+  width: 50px;
+  height: 50px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0.625rem;
+  box-sizing: border-box;
+  padding-top: 2rem;
+  gap: 10rem;
+}
+.nav__right {
+  display: flex;
+  align-items: center;
+  font-size: 1.25rem;
+  font-size: 1.875rem;
+}
+.nav__left {
+  display: flex;
+  align-items: center;
+  font-size: 1.875rem;
+}
+
+.theme-icon {
+  margin-right: 16px;
+  padding-left: 30px;
+  padding-top: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(226, 228, 233, 0.82);
+}/*# sourceMappingURL=NavBar.css.map */
