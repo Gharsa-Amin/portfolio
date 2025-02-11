@@ -6,12 +6,13 @@
     import Snaps from "../../assets/images/Snaps.png"; 
     import TorontoLovesLocal from "../../assets/images/TorontoLovesLocal.png"
     import Bandsite from "../../assets/images/Bandsite.png"; 
+    import Portfolio from "../../assets/images/Portfolio.png"; 
     import SVGforProjectTitle from "../SVGforProjectTitle/SVGforProjectTitle";
     import SVGforProjectPara from "../SVGProjectPara/SVGProjectPara";
     import SVGProjectNavigation from "../SVGProjectNavigation/SVGProjectNavigation";
     import Github from "../Github/Github";
     import SVGProjectLiveDemo from "../SVGProjectLiveDemo/SVGProjectLiveDemo";
-
+ 
 
     const Projects: React.FC = () => {
         
@@ -21,6 +22,30 @@
                     <div className="projects__header">
                         My Projects  
                     </div>
+                    <section className="projects__card"> 
+        <div className="projects__content">
+                        <h2 className="projects__title">Portfolio Website</h2>
+                        
+                        <p className="projects__paragraph">
+                        <SVGforProjectTitle />
+                        This website is designed and built from scratch by me. I am planning to make the website responsive for mobile, desktop, and tablet screens. Currently, it is only in desktop version. I also intend to proactively publish my blogs here about software engineering.</p>                        <p className="projects__paragraph">
+                    <SVGforProjectPara />
+        Tech Tools: Typscript, Github, React, SASS, Figma, Design Thinking</p>
+        <p className="projects__paragraph"> <SVGProjectNavigation />
+        Visit Github:  <Link to="https://github.com/Gharsa-Amin/portfolio"  target="_blank">
+        <Github />
+                </Link>
+        </p>
+                        <a href="https://gharsaamin.netlify.app/" target="_blank" rel="noopener noreferrer">
+                            <button className="projects__button">Live Website
+                            <SVGProjectLiveDemo />
+                            </button>
+                        </a>
+                        </div>
+                        <div className="projects__image">
+                        <img className="projects__image"  src={Portfolio} alt="Screenshot of the GD Chain project interface" />
+                        </div>
+                    </section>
                     <section className="projects__card"> 
         <div className="projects__content">
                         <h2 className="projects__title">Toronto ❤ Local</h2>
