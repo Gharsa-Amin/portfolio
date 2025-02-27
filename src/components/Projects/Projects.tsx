@@ -28,7 +28,7 @@
                         
                         <p className="projects__paragraph">
                         <SVGforProjectTitle />
-                        This website is designed and built from scratch by me. I am planning to make the website responsive for mobile, desktop, and tablet screens. Currently, it is only in desktop version. I also intend to proactively publish my blogs here about software engineering.</p>                        <p className="projects__paragraph">
+                        This custom-built portfolio highlights my expertise as a software engineer, showcasing both my technical skills and creative design abilities. Additionally, it will feature a blog where I share valuable insights and practical knowledge on software engineering.</p>                        <p className="projects__paragraph">
                     <SVGforProjectPara />
         Tech Tools: Typscript, Github, React, SASS, Figma, Design Thinking</p>
         <p className="projects__paragraph"> <SVGProjectNavigation />
@@ -37,6 +37,30 @@
                 </Link>
         </p>
                         <a href="https://gharsaamin.netlify.app/" target="_blank" rel="noopener noreferrer">
+                            <button className="projects__button">Live Website
+                            <SVGProjectLiveDemo />
+                            </button>
+                        </a>
+                        </div>
+                        <div className="projects__image">
+                        <img className="projects__image"  src={Portfolio} alt="Screenshot of the GD Chain project interface" />
+                        </div>
+                    </section>
+                    <section className="projects__card"> 
+        <div className="projects__content">
+                        <h2 className="projects__title">QuantBlock Library</h2>
+                        
+                        <p className="projects__paragraph">
+                        <SVGforProjectTitle />
+                        The Library is a collection of books gathered from IBM Quantum Computing Educational Tutorials, scholars, and industry leaders. I created this library to make the top books in the quantum/blockchain space accessible, and decentralized for everyone. </p>                        <p className="projects__paragraph">
+                    <SVGforProjectPara />
+        Tech Tools: Tailwind CSS, React, Figma, Design Thinking, Canva</p>
+        <p className="projects__paragraph"> <SVGProjectNavigation />
+        Visit Github:  <Link to="https://github.com/Gharsa-Amin/Books-Library-101"  target="_blank">
+        <Github />
+                </Link>
+        </p>
+                        <a href="https://blockchainquantum.netlify.app/" target="_blank" rel="noopener noreferrer">
                             <button className="projects__button">Live Website
                             <SVGProjectLiveDemo />
                             </button>
