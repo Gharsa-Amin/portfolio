@@ -14,6 +14,7 @@ This portfolio is built with the following technologies:
 - **React**: A JavaScript library for building user interfaces.
 - **Sass, CSS**: A utility-first CSS framework for custom designs.
 - **TypeScript**: A superset of JavaScript that adds static types.
+- **Tailwind CSS**: For responsive user-friendly designs.
 
 ## Features
 
