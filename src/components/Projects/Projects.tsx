@@ -10,6 +10,7 @@
     import SVGforProjectTitle from "../SVGforProjectTitle/SVGforProjectTitle";
     import SVGforProjectPara from "../SVGProjectPara/SVGProjectPara";
     import SVGProjectNavigation from "../SVGProjectNavigation/SVGProjectNavigation";
+    import BlockchainQuantLibrary from "../../assets/images/BlockchainQuantLibrary.png"; 
     import Github from "../Github/Github";
     import SVGProjectLiveDemo from "../SVGProjectLiveDemo/SVGProjectLiveDemo";
  
@@ -67,7 +68,7 @@
                         </a>
                         </div>
                         <div className="projects__image">
-                        <img className="projects__image"  src={Portfolio} alt="Screenshot of the GD Chain project interface" />
+                        <img className="projects__image"  src={BlockchainQuantLibrary} alt="Screenshot of the GD Chain project interface" />
                         </div>
                     </section>
                     <section className="projects__card"> 
